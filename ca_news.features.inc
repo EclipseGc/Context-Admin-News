@@ -68,6 +68,17 @@ function ca_news_node_info() {
       'min_word_count' => '0',
       'help' => '',
     ),
+    'ca_news_image' => array(
+      'name' => t('News Image'),
+      'module' => 'features',
+      'description' => t('Create Images for an associated News Article.'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'has_body' => '1',
+      'body_label' => t('Caption'),
+      'min_word_count' => '0',
+      'help' => '',
+    ),
   );
   return $items;
 }
